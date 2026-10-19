@@ -21,12 +21,12 @@ contacto.html:pagina con mis contactos para que me contacten (no tengo linkedin 
 ![Proyectos en computador](mockups/educacion-computador.png)
 
 ## contacto
-![Celular](capturas/contacto-celular.png)
-![Computador](capturas/contacto-computador.png)
+![Celular](mockups/contacto-celular.png)
+![Computador](mockups/contacto-computador.png)
 
 ## sobre mi
-![Celular](capturas/sobremi-celular.png)
-![Computador](capturas/sobremi-computador.png)
+![Celular](mockups/sobremi-celular.png)
+![Computador](mockups/sobremi-computador.png)
 
 ## Breakpoints
 - **Base (celular):** Todo en una columna (Mobile First).
