@@ -1,4 +1,4 @@
-# Hoja de vida web · david lopez
+# Hoja de vida web - david lopez
 Sitio personal con mi hoja de vida, mis proyectos de software y mi información de contacto.
  **Sitio publicado:** https://davi662.github.io/hoja-de-vida/
 ## Páginas
@@ -7,7 +7,7 @@ index.html:pagina de inicio con mi informacion personal
 proyectos.html: pagina con mis proyectos realisados
 contacto.html:pagina con mis contactos para que me contacten (no tengo linkedin pero agrege el link para que se viera profesional)
 ## Mockups
-- mock
+
 ### pagina principal
 ![Inicio en celular](mockups/principal-celular.png)
 ![Inicio en computador](mockups/principal-computador.png)
