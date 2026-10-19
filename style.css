@@ -233,3 +233,54 @@ p {
         margin-bottom: 0;
     }
 }
+
+.seccion-proyectos {
+    width: 100%;
+}
+
+.titulo-pagina {
+    font-size: 2rem;
+    color: #718096;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+
+.grid-proyectos {
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.tarjeta-proyecto {
+    background-color: #cbd5e0;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    text-align: left;
+    
+    
+    min-height: 380px; 
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.tarjeta-proyecto h3 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+}
+
+.tarjeta-proyecto p {
+    color: #ffffff;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    font-weight: 300;
+}
+.link{
+    color: white;
+}
