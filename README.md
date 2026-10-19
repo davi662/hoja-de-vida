@@ -1,4 +1,4 @@
-# Hoja de vida web · Tu Nombre
+# Hoja de vida web · david lopez
 Sitio personal con mi hoja de vida, mis proyectos de software y mi información de contacto.
  **Sitio publicado:** https://davi662.github.io/hoja-de-vida/
 ## Páginas
