@@ -284,3 +284,356 @@ p {
 .link{
     color: white;
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f5f7;
+    color: #718096;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.contenedor-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-areas: 
+        "cabecera"
+        "principal"
+        "pie";
+    gap: 2rem;
+}
+
+.cabecera { grid-area: cabecera; }
+.principal { grid-area: principal; }
+.pie { grid-area: pie; }
+
+.cabecera {
+    border-bottom: 1px solid #edf2f7;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.logo {
+    font-size: 1.2rem;
+    color: #a0aec0;
+    margin-bottom: 1rem;
+    font-weight: normal;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #a0aec0;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #4a5568;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.foto-perfil {
+    max-width: 100%;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+}
+
+.info-perfil h1 {
+    font-size: 1.4rem;
+    color: #a0aec0;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.descripcion-corta {
+    font-size: 1.6rem;
+    color: #a0aec0;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+}
+
+.btn-proyectos {
+    display: inline-block;
+    background-color: #a0aec0;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.btn-proyectos:hover {
+    background-color: #718096;
+}
+
+section {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid #edf2f7;
+    padding-bottom: 3rem;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    font-size: 1.3rem;
+    color: #a0aec0;
+    margin-bottom: 1.5rem;
+    font-weight: normal;
+}
+
+.texto-grande {
+    font-size: 1.4rem;
+    color: #4a5568;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+p {
+    font-size: 1rem;
+    color: #718096;
+}
+
+.grid-habilidades {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.columna-habilidad h3, .titulo-fecha h3 {
+    font-size: 1.05rem;
+    color: #4a5568;
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+}
+
+.item-educacion {
+    margin-bottom: 2rem;
+}
+
+.titulo-fecha span {
+    display: block;
+    font-size: 0.9rem;
+    color: #a0aec0;
+    margin-bottom: 0.5rem;
+}
+
+
+.seccion-proyectos {
+    width: 100%;
+}
+
+.titulo-pagina {
+    font-size: 2rem;
+    color: #718096;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+
+.grid-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.tarjeta-proyecto {
+    background-color: #cbd5e0;
+    padding: 3rem 2rem;
+    border-radius: 20px;
+    text-align: left;
+    min-height: 380px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.tarjeta-proyecto h3 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+}
+
+.tarjeta-proyecto p {
+    color: #ffffff;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.btn-repo {
+    display: inline-block;
+    margin-top: auto; 
+    padding: 0.6rem 1.5rem;
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    align-self: flex-start;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-repo:hover {
+    background-color: #ffffff;
+    color: #cbd5e0;
+}
+
+.seccion-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    border-bottom: none;
+}
+
+.info-contacto-izq h2 {
+    font-size: 2rem;
+    color: #a0aec0;
+    font-weight: normal;
+    margin: 0;
+}
+
+.datos-contacto-der {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.enlace-contacto {
+    font-size: 1.5rem;
+    color: #718096;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.enlace-contacto:hover {
+    color: #4a5568;
+}
+
+.pie {
+    text-align: center;
+    color: #a0aec0;
+    font-size: 0.85rem;
+    border-top: 1px solid #edf2f7;
+    padding-top: 2rem;
+}
+
+@media (min-width: 768px) {
+    
+    .contenedor-grid {
+        padding: 3rem;
+        grid-template-areas: 
+            "cabecera cabecera"
+            "principal principal"
+            "pie pie";
+    }
+
+    .cabecera {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+
+    .logo {
+        margin-bottom: 0;
+    }
+
+    .perfil {
+        flex-direction: row;
+        text-align: left;
+        align-items: flex-start;
+        gap: 4rem;
+    }
+
+    .foto-perfil {
+        margin-bottom: 0;
+        width: 220px;
+        height: 220px;
+    }
+
+    .info-perfil h1 {
+        font-size: 1.6rem;
+    }
+
+    .descripcion-corta {
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+
+    .texto-grande {
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+
+    .grid-habilidades {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .item-educacion {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 3rem;
+        align-items: start;
+    }
+    
+    .titulo-fecha span {
+        margin-bottom: 0;
+    }
+
+    .seccion-contacto {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 15%;
+        padding-top: 5rem;
+        padding-bottom: 12rem;
+        padding-left: 5%;
+    }
+
+    .info-contacto-izq h2 {
+        font-size: 2.2rem;
+    }
+
+    .datos-contacto-der {
+        gap: 2.5rem;
+        padding-top: 0.5rem;
+    }
+
+    .enlace-contacto {
+        font-size: 2.2rem;
+    }
+}
